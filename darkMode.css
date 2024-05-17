@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    background-color: rgb(218, 224, 110);
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    transition: all ease .3s;
+}
+
+header.darkMode {
+    color: white;
+    background-color: rgb(50, 50, 100);
+    transition: all ease .3s;
+}
+
+header i {
+    font-size: 100px;
+    cursor: pointer;
+    transition: all ease .1s;
+}
+
+header p {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+}
